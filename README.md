@@ -2,6 +2,12 @@
 
 A react web application for the management of books, users and the Issue and Return of Books in a Library.
 
+## Project is live:
+
+Deployed on https://librarymanagementwebapplication.netlify.app/
+
+Backend on https://library-management-web-app.herokuapp.com/
+
 ## Some screenshots of the project
 
 ![alt text](https://github.com/rajankeshari/Library-Management-Web-Application/blob/main/Screenshots/Home.png)
@@ -9,11 +15,6 @@ A react web application for the management of books, users and the Issue and Ret
 ![alt text](https://github.com/rajankeshari/Library-Management-Web-Application/blob/main/Screenshots/Issue.png)
 ![alt text](https://github.com/rajankeshari/Library-Management-Web-Application/blob/main/Screenshots/About.png)
 
-## Project is live:
-
-Deployed on https://librarymanagementwebapplication.netlify.app/
-
-Backend on https://library-management-web-app.herokuapp.com/
 
 ## User Permissions
 
