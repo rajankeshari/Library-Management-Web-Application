@@ -2,6 +2,12 @@
 
 A react web application for the management of books, users and the Issue and Return of Books in a Library.
 
+## Project is live:
+
+Deployed on https://librarymanagementwebapplication.netlify.app/
+
+Backend on https://library-management-web-app.herokuapp.com/
+
 ## User Permissions
 
 ### Student
@@ -35,10 +41,6 @@ An admin can
 2. You can also register yourself as a student and then login to view the options available to a student.
 
 
-## Project is live:
-
-Deployed on https://librarymanagementwebapplication.netlify.app/
-Backend on https://library-management-web-app.herokuapp.com/
 
 ## Tech Stack Used
 
