@@ -1,0 +1,63 @@
+.add-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.new-book-container{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-book{
+  width: 400px;
+  background-color: white;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.new-book .fa{
+  margin: 0 10px 10px;
+  font-size: 32px;
+}
+
+.new-book span{
+  margin: 3px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.new-book input{
+  border-radius: 8px;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 /10%);
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.new-book button{
+  width: 100%;
+  background: #333;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.new-book button:hover{
+  background-color: black;
+}

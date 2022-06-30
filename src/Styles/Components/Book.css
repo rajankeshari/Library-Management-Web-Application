@@ -1,0 +1,63 @@
+.book{
+  display: flex;
+  height: 350px;
+  box-shadow:inset 0px 0px 0px 1px #dddfe2;
+  margin-bottom: 30px;
+}
+
+.book-image-div{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #dddfe2;
+}
+
+.book-image-div img{
+  height: 80%;
+  width: 80%;
+}
+
+.book-content-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.book-content{
+  height: 80%;
+  width: 95%;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 1px 2px rgb(0 0 0 /10%), 0 4px 8px rgb(0 0 0 /10%);
+}
+
+.book-content p{
+  margin: 12px;
+  padding: 3px;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 0.5px 1px rgb(0 0 0 /10%), 0 2px 4px rgb(0 0 0 /10%);
+}
+
+.issue-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.issue-button{
+  width: 40%;
+  background: #333;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.issue-button:hover{
+  background-color: black;
+}

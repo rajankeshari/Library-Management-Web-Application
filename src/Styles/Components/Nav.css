@@ -1,0 +1,110 @@
+.admin-nav, .student-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.navbar-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 15, 15);
+}
+
+
+.navlink:hover{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.current-user-picture {
+  height: 35px;
+  width: 35px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.current-user-picture:hover{
+  border: 1px solid #333;
+}
+
+.toggle-button{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(15,15,15);
+}
+
+
+@media (min-width: 1200px){
+  .toggle-button{
+    visibility: hidden;
+  }
+  .dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-list{
+    margin-right: -35px;
+  }
+  .navlink{
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1199px){
+  .dropdown{
+    position: relative;
+    display: inline-block; 
+    margin-right: 15px;
+  }
+  .navbar-list {
+    display: none;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+  }
+
+  .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 35px;
+    text-decoration: none;
+    border-radius: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 15, 15);
+  }
+  .navlink:hover {
+    background-color: black
+  }
+  .dropdown:hover .navbar-list {
+    display: block;
+  }
+}
+
+
+
+
+

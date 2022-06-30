@@ -1,0 +1,18 @@
+.issued-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.issued-books{
+  margin-top: 70px;
+}
+
+.no-book-issued{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3rem;
+  font-weight: bold;
+ text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+.search-page,
+.issue-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.searchForm{
+  margin: 120px 120px 30px;
+  display: flex;
+}
+
+.search-icon{
+  min-height: 60px;
+  min-width: 60px;
+  padding: 10px;
+  border: 2px solid #dddfe2;
+  border-right: none;
+  border-radius: 0.25rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.searchForm input[type="text"]{
+  width: 100%;
+  min-height: 60px;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  border: 2px solid #dddfe2;
+  border-left: none;
+  outline: none;
+  border-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.searchForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.books{
+  margin: 0 120px;
+}
+
+

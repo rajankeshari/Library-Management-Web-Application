@@ -1,0 +1,31 @@
+.SignInNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  width: 330px;
+}
+
+.signUpDiv, .signInDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+  border: 2px solid rgb(15, 15, 15);
+  padding: 0px 4px;
+  border-radius: 5px;
+}
+
+.signUpButton, .signInButton{
+  width: 80px;
+  height:40px;
+  padding: 0;
+  margin-left: 2px;
+  border-radius: 5px;
+  font-size: large;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  border: none;
+}
+
