@@ -1,3 +1,47 @@
+# Library Management Web App
+
+A react web application for the management of books, users and the Issue and Return of Books in a Library.
+
+## User Permissions
+
+### Student
+
+A student can
+
+* register himself on the app
+* view their profile
+* search for books and view availabilty
+* view issued books for them
+
+### Admin
+
+An admin can
+
+* view their profile
+* search for books and view availability
+* view, Edit existing books
+* add new books
+* issue a book to a student
+* return a book issued earlier
+* view the profile of all users/admin
+
+## For authetication
+
+1. You can try logging in as an **admin** by entering the following credentials:
+
+* **emailID**: *admin@admin.com*
+* **password**: *admin@123*
+
+2. You can also register yourself as a student and then login to view the options available to a student.
+
+
+## Project is live:
+
+Deployed on https://librarymanagementwebapplication.netlify.app/
+
+
+------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
